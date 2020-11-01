@@ -4,12 +4,12 @@ export const cache: InMemoryCache = new InMemoryCache({
   typePolicies: {
     Query: {
       fields: {
-        isLoggedIn() {
-          return isLoggedInVar();
-        },
-        cartItems() {
-          return cartItemsVar();
-        },
+        // isLoggedIn() {
+        //   return isLoggedInVar();
+        // },
+        // cartItems() {
+        //   return cartItemsVar();
+        // },
         launches: {
           keyArgs: false,
           merge(existing, incoming) {
